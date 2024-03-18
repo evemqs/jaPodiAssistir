@@ -1,0 +1,37 @@
+#grid_filmes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 0px 50px 50px 50px;
+  justify-items: center;
+}
+
+main {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin: 1.87rem 0rem 1.87rem 0rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+h2 {
+  text-align: center;
+  margin: 0.62rem
+}
+
+.imagem {
+  max-width: 100%;
+  width: 18.5rem;
+  height: 26.75rem;
+  object-fit: cover;
+}
+
+.simbolos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  justify-items: center;
+}
