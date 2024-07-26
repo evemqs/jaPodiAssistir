@@ -37,8 +37,9 @@ h2 {
 
 .imagem-top:hover {
   transition: 0.5s;
-  width: 25rem;
-  height: 31.25rem;
+  width: 21.8rem;
+  height: 28.25rem;
+  object-fit: fill;
 }
 
 .imagem:hover {
@@ -49,6 +50,8 @@ h2 {
 }
 
 #filme-destaque {
+  display: flex;
+  align-items: flex-end;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5),
@@ -57,16 +60,14 @@ h2 {
     url(https://www.cineset.com.br/wp-content/uploads/2015/04/70Bt5CDjX5BUoO4GPyBhjPAnOfV.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1700px;
-  height: 650px;
+  width: 105vw;
+  height: 50vw;
   margin: 0 auto;
   max-width: 100%;
 }
 
 .detalhesFilmeDestaque {
-  position: absolute;
   padding: 50px;
-  bottom: 90px;
 }
 
 .tituloFilmeDestaque {
@@ -93,12 +94,14 @@ h2 {
   opacity: 85%;
 }
 
-.material-symbols-outlined,
+.descricaoFilmeDestaque .material-symbols-outlined,
 p {
   margin-top: -5px;
 }
 
-#top-1, #top-2, #top-3 {
+#top-1,
+#top-2,
+#top-3 {
   position: relative;
 }
 
