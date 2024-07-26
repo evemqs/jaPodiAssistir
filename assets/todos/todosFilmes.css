@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   text-align: center;
-  margin: 0.62rem
+  margin: 0.62rem;
 }
 
 .imagem {
@@ -34,4 +34,11 @@ h2 {
   grid-template-columns: 1fr 1fr;
   margin: 10px;
   justify-items: center;
+}
+
+.imagem:hover {
+  transition: 0.5s;
+  width: 20rem;
+  height: 28.25rem;
+  object-fit: fill;
 }
