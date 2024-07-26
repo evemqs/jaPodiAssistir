@@ -15,22 +15,29 @@ main {
   font-weight: 1000;
   margin: 30px 0px 30px 0px;
 }
-  
+
 h2 {
   text-align: center;
   margin: 10px;
 }
-  
+
 .imagem {
   max-width: 100%;
   width: 18.5rem;
   height: 26.75rem;
   object-fit: cover;
 }
-  
+
 .simbolos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 10px;
   justify-items: center;
+}
+
+.imagem:hover {
+  transition: 0.5s;
+  width: 20rem;
+  height: 28.25rem;
+  object-fit: fill;
 }
