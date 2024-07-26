@@ -7,6 +7,7 @@ body {
 }
 
 .filmeModelo {
+  padding-top: 3rem;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -19,15 +20,18 @@ body {
   width: 100%;
   max-height: 50rem;
 }
+
 .tituloFilme {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 0.5rem;
   text-align: left;
 }
+
 span {
   vertical-align: middle;
 }
+
 .iconesFilme {
   display: flex;
   justify-content: space-between;
@@ -82,18 +86,22 @@ span {
   color: white;
   text-align: start;
 }
+
 .botaoComentar {
   text-align: right;
 }
+
 .botaoComentar button {
   color: white;
   height: 2rem;
   border: none;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .naoHaComentarios {
   opacity: 50%;
 }
+
 .estrelas:hover,
 .material-symbols-outlined.warning:hover {
   color: yellow;
